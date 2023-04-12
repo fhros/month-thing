@@ -16,7 +16,7 @@ if (answer === "joulukuu" || answer === "tammikuu" || answer === "helmikuu") {
       mirri;
       woawa.innerText = "KISSA MIRRI🐱‍👤🐱‍👤🐱‍👤🐱‍👤";
 } else {
-    woawa.innerText = "Syötetty kuukausi ei kelpaa.";
+    woawa.innerText = "Syötetty kuukausi ei kelpaa. (koita kirjoittaa kissa promptiin)";
 }
 
 function mirri() {
