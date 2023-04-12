@@ -13,7 +13,8 @@ if (answer === "joulukuu" || answer === "tammikuu" || answer === "helmikuu") {
 } else if(answer === "syyskuu" || answer === "lokakuu" || answer ==="marraskuu") {
     woawa.innerText = "syksy on siisti";
 } else if(answer === "kissa") {
-      mirri
+      mirri;
+      woawa.innerText = "KISSA MIRRI🐱‍👤🐱‍👤🐱‍👤🐱‍👤";
 } else {
     woawa.innerText = "Syötetty kuukausi ei kelpaa.";
 }
