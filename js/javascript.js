@@ -16,3 +16,11 @@ if (answer === "joulukuu" || answer === "tammikuu" || answer === "helmikuu") {
 }
 
 console.log(woawa.innerText);
+
+
+var button = document.getElementById("btn")
+button.onclick = func
+
+function func() {
+    kissa.src="https://th.bing.com/th/id/R.d69ea557142c01941a7337f29a43ac23?rik=mW20PnMIekH50g&pid=ImgRaw&r=0"
+}
