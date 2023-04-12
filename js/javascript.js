@@ -1,6 +1,6 @@
 var month = prompt("Kuukausi tähä");
-var answer = month.toLowerCase();
 var kissa = document.getElementById("kissa")
+var answer = month.toLowerCase();
 
 var woawa = document.getElementById("kuukausi");
 
@@ -13,9 +13,11 @@ if (answer === "joulukuu" || answer === "tammikuu" || answer === "helmikuu") {
 } else if(answer === "syyskuu" || answer === "lokakuu" || answer ==="marraskuu") {
     woawa.innerText = "syksy on siisti";
 } else if(answer === "kissa") {
-      kissa.src="https://th.bing.com/th/id/R.d69ea557142c01941a7337f29a43ac23?rik=mW20PnMIekH50g&pid=ImgRaw&r=0"
+      mirri
 } else {
     woawa.innerText = "Syötetty kuukausi ei kelpaa.";
 }
 
-console.log(woawa.innerText);
+function mirri() {
+    kissa.src="https://th.bing.com/th/id/R.d69ea557142c01941a7337f29a43ac23?rik=mW20PnMIekH50g&pid=ImgRaw&r=0"
+}
