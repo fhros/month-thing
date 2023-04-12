@@ -18,6 +18,9 @@ if (answer === "joulukuu" || answer === "tammikuu" || answer === "helmikuu") {
 console.log(woawa.innerText);
 
 
+
+var kissa = document.getElementById("kissa")
+
 var button = document.getElementById("btn")
 button.onclick = func
 
